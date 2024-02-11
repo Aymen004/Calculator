@@ -27,7 +27,10 @@ The application is contained in a single JavaScript file, `script.js`. Here's a 
 - The `appendDigitOrOperator` method appends a digit or an operator to the current input, depending on the value.
 - The event listener at the end of the file handles clicks on the calculator buttons. It calls the appropriate method of the `calculator` object based on the text content of the clicked button.
 
+## Styling
+
+The visual appearance of the calculator is defined in `styles.css`. This includes the layout of the calculator, the colors of the buttons and display, and the font sizes. The calculator is centered on the page, and the buttons are arranged in a grid. The equal button spans two columns. The display is at the top of the calculator and spans all four columns.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
-
